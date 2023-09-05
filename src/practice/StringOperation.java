@@ -11,8 +11,8 @@ public static void main(String[] args) {
 	System.out.println(a.substring(5));
 	System.out.println(a.substring(2, 5));
 	System.out.println(a.contains("waa"));
-	System.out.println(a.startsWith("Yash"));
-	System.out.println(a.endsWith("d"));
+	System.out.println(a.startsWith("  Yash"));
+	System.out.println(a.endsWith("d  "));
 	System.out.println(b.concat(" dhasade"));
 	System.out.println(b.equals(c));
 	System.out.println(b.equalsIgnoreCase(c));
